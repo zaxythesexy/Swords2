@@ -1,0 +1,10 @@
+# All cooldowns are in seconds.
+dash:
+  cooldown: 20
+  distance: 10        # blocks
+
+strike:
+  chance: 0.20        # 0.20 = 20%
+
+regen:
+  cooldown: 3660      # 61 minutes (61 * 60)

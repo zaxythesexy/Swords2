@@ -1,0 +1,26 @@
+name: AbilitySwords
+version: '${project.version}'
+main: com.example.abilityswords.AbilitySwords
+api-version: '1.21.11'
+description: Dash sword, strike sword and regeneration axe.
+commands:
+  swords:
+    description: Give yourself an ability item.
+    usage: /swords give <dash|strike|regen> [player]
+    permission: abilityswords.give
+  dashsword:
+    description: Give yourself the Dash Sword.
+    usage: /dashsword [player]
+    permission: abilityswords.give
+  strikesword:
+    description: Give yourself the Strike Sword.
+    usage: /strikesword [player]
+    permission: abilityswords.give
+  regenaxe:
+    description: Give yourself the Regeneration Axe.
+    usage: /regenaxe [player]
+    permission: abilityswords.give
+permissions:
+  abilityswords.give:
+    description: Allows giving ability items.
+    default: op
